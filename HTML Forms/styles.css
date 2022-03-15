@@ -1,0 +1,139 @@
+body {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 18px;
+  text-align: center;
+}
+.container {
+  text-align: left;
+  padding: 20px;
+}
+.form{
+  border: 15px;
+}
+.clr {
+  clear: both;
+}
+.black-border {
+  border: 4px solid brown;
+  color: black;
+  text-align: center;
+  margin: auto;
+  border-style: double;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.black-border2 {
+  border: 5px solid grey;
+  padding: auto;
+}
+
+h2 {
+  color: indigo;
+  background-color: brown;
+  margin: 0 auto;
+}
+ul {
+  color: brown;
+  list-style-type: square;
+}
+h1 {
+  background-color: brown;
+}
+
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: white;
+  border-bottom: 100px;
+}
+.block p {
+  text-align: center;
+}
+.block ul {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: white;
+  border-bottom: 100px;
+}
+h6 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: white;
+  font-size: small;
+  border-bottom: 100px;
+}
+
+a:hover {
+  color: green;
+}
+.block {
+  width: 33.3%;
+  padding: 14px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.block1 {
+  float: left;
+  width: 33.3%;
+  box-sizing: border-box;
+  padding: 6.1px;
+  text-align: center;
+}
+
+.block2 {
+  float: left;
+  width: 33.3%;
+  box-sizing: border-box;
+  padding: 5px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .block {
+    float: left;
+    width: 33.3%;
+    padding: 14px;
+    box-sizing: border-box;
+  }
+
+  .block1 {
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 6.1px;
+    text-align: center;
+  }
+
+  .block2 {
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+  }
+
+  body {
+    background-color: lightgray;
+    color: black;
+    font-size: 15px;
+    line-height: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    label{
+      display: block; margin-bottom: .2em;
+    }
+  }

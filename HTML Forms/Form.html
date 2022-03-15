@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Contactformulier</title>
+</head>
+
+<body>
+<div>Contactformulier</div>
+<form name="Form" method="POST" data-netlify="true">
+<p>
+    <label>Naam: <input type="text" name="name"/></label>
+</p>
+
+<p>
+    <label>Email: <input type="text" name="Email"/></label>
+</p>
+
+<p><textarea rows="10 cols=50">
+Schrijf hier uw vraag.
+</textarea>
+</p>
+<p>Datum  <input type="date"/></p>
+<p>Bel mij terug   <input type="checkbox"/></p>
+<p>In hoeverre bent u tevreden over ons? 1<input type="range">10</p>
+<p>Voor samenwerkingen kunt u hier uw voorstel uploaden
+<input type="file"/> </p>
+<p><button type="submit">Verstuur</button>
+</p>
+
+<input type="hidden" name="Form" value="contact">
+<footer>
+ <p>&copy; Leyli Salem - 2022</p>
+</footer>
+</form>
+</body>
+</html>
